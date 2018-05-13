@@ -1,5 +1,4 @@
 a =  [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 for number in a:
-    b = number<10
-    if b == True:
+    if number<10:
         print number
